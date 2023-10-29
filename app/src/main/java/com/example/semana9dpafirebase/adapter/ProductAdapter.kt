@@ -28,6 +28,7 @@ class ProductAdapter(private var lstProducts: List<ProductModel>): RecyclerView.
     override fun getItemCount(): Int {
         return lstProducts.size
     }
+    //asas
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val itemProduct= lstProducts[position]
