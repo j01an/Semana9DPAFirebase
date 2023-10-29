@@ -28,12 +28,16 @@ class loginActivity : AppCompatActivity() {
                     if(task.isSuccessful){
                         Snackbar.make(findViewById(android.R.id.content),
                             "Ingreso Exitoso", Snackbar.LENGTH_LONG).show()
-                        startActivity(Intent(this,MainActivity::class.java))
+                        startActivity(Intent(this,PrincipalActivity::class.java))
                     }else{
                         Snackbar.make(findViewById(android.R.id.content),
                             "Credenciales invalidas",Snackbar.LENGTH_LONG).show()
                     }
                 }
+        }
+
+        btnRegister.setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
 
     }
