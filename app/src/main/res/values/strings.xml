@@ -16,9 +16,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">listado</string>
+    <string name="menu_home">Producto</string>
     <string name="menu_gallery">Cliente</string>
     <string name="menu_slideshow">Pokemon</string>
+
+    <string name="tittle_customer">Register</string>
+    <string name="valetfirtsname">Firts name</string>
+    <string name="valetlastsname">Last name</string>
+    <string name="valetphonenumber">Phone number</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
